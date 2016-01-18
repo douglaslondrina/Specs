@@ -15,6 +15,7 @@
   "platforms": {
     "ios": null
   },
+  "header_mappings_dir": "src/include",
   "prefix_header_contents": "#ifdef __OBJC__\n#import \"AmazonLogger.h\"\n#import \"AmazonErrorHandler.h\"\n#endif\n",
   "requires_arc": false,
   "subspecs": [
